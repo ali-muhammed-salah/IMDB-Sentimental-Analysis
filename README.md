@@ -106,10 +106,6 @@ Here is your **updated libraries list** with all the imported libraries from you
 
 ---
 
-Here is your **equivalent “Model Comparison” section** rewritten for your README, using your own task context and emojis:
-
----
-
 ## 📊 **Model Insights**
 
 | **Model**                  | **Vectorizer** | **Accuracy**   |
