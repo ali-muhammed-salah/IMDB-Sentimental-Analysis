@@ -24,6 +24,8 @@ Build a machine learning model to analyze **IMDb TV Show Reviews** and classify 
   * `Show ID` (Alphanumeric)
   * `Review ID` (Alphanumeric)
 
+* **Rows Used:** All **\~8,319 reviews** from the dataset
+
 ---
 
 ## 🛠 **Tools & Libraries**
@@ -71,10 +73,6 @@ Here is your **updated libraries list** with all the imported libraries from you
 * 🎯 Metrics: **Accuracy**, **Confusion Matrix** and **Classification Report**
 ---
 
-Here is a **clear and structured description** of the two types of visualizations you created, ready for your README:
-
----
-
 ### 🎨 **Visualizations Created**
 
 #### 1️⃣ **Bar Chart Visualizations**
@@ -116,7 +114,7 @@ Here is your **equivalent “Model Comparison” section** rewritten for your RE
 
 | **Model**                  | **Vectorizer** | **Accuracy**   |
 | -------------------------- | -------------- | -------------- |
-| 📈 **Logistic Regression** | TF-IDF         | \~87% ✅ |
+| 📈 **Logistic Regression** | TF-IDF         | \~88% ✅ |
 | 🤖 **Naive Bayes**         | Count Vectorizer         | \~87% ✅       |
 
 ---
@@ -131,4 +129,5 @@ Here is your **equivalent “Model Comparison” section** rewritten for your RE
 ---
 
 > **Note:** This task focused on **classic NLP (no deep learning)** to strengthen fundamental understanding before moving to advanced transformer models.
+
 
