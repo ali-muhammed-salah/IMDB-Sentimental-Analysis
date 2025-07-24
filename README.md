@@ -1,67 +1,105 @@
-# 📝 IMDb Sentiment Analysis – NLP Task
+# 🎬 IMDb Sentiment Analysis – NLP Task
 
 ### 🚀 **ELEVVO Internship Project**
 
-**Author:** Ali Muhammed
-**Task Level:** NLP Task 1 ✅
+* 👤 **Author:** Ali Muhammed
+* 📝 **Task Level:** NLP Task 1
 
 ---
 
 ## 🎯 **Objective**
 
-Develop a **Sentiment Analysis model** to classify **IMDb movie reviews** as **Positive** or **Negative** using traditional NLP and machine learning techniques.
+Build a machine learning model to analyze **IMDb TV Show Reviews** and classify them as **positive ✅** or **negative ❌** using classic NLP techniques.
 
 ---
 
-## 📁 **Dataset Details**
+## 📁 **Dataset**
 
 * **Dataset:** IMDb Reviews
-* **File:** IMDB Dataset.csv
+* **File:** IMDB TV Shows.csv
 * **Columns Used:**
 
-  * `review` (text)
-  * `sentiment` (positive/negative)
+  * `Rating (out of 10)` (Number)
+  * `Review` (Text)
+  * `Show ID` (Alphanumeric)
+  * `Review ID` (Alphanumeric)
 
 ---
 
-## 🛠️ **Tools & Libraries**
+## 🛠 **Tools & Libraries**
 
-* Python 🐍
-* Pandas 📊
-* NLTK ✂️
-* Scikit-learn 🤖
-* cudf ⚡ (GPU acceleration)
+Here is your **updated libraries list** with all the imported libraries from your code:
 
 ---
 
-## 🔗 **Workflow Overview**
-
-1. **Data Cleaning & Preprocessing**
-
-   * Lowercasing text 🔡
-   * Removing HTML tags and punctuation ❌
-   * Removing stopwords using NLTK 🛑
-
-2. **Feature Extraction**
-
-   * Converting text to numerical features using **TF-IDF Vectorizer**
-
-3. **Model Training**
-
-   * Algorithm: **Multinomial Naive Bayes**
-   * Data Split: 80% train / 20% test
-
-4. **Evaluation**
-
-   * **Accuracy:** \~50% (baseline, before optimization)
-
-5. **Visualization**
-
-   * Bar charts showing **top distinctive words** in positive vs negative reviews
+* 🐍 Python
+* 📊 Pandas
+* ✂️ NLTK
+* 🔡 re (Regular Expressions)
+* 🔢 NumPy
+* 📈 Matplotlib (pyplot)
+* ☁️ WordCloud
+* 🤖 Scikit-learn
 
 ---
 
-## 📊 **Sample Insights**
+## 🔄 **Workflow Overview**
+
+### 🛠️ **1. Data Cleaning & Preprocessing**
+
+* 🔡 Converted all reviews to lowercase
+* 🧹 Stripped out HTML tags and special characters
+* 🚫 Removed stopwords using **NLTK stopword lists**
+
+---
+
+### ✨ **2. Feature Transformation**
+
+* 🧮 Applied **TF-IDF Vectorizer** and **Count Vectorizer (Bonus)** to turn text data into numerical feature vectors for model training
+
+---
+
+### 🤖 **3. Model Building**
+
+* 🔍 Used **Logistic Regression Model** and **Multinomial Naive Bayes Model (Bonus)** as the classification algorithms
+* 🗂️ Split dataset into **80% training** and **20% testing**
+
+---
+
+### 📊 **4. Performance Evaluation**
+
+* 🎯 Metrics: **Accuracy**, **Confusion Matrix** and **Classification Report**
+---
+
+Here is a **clear and structured description** of the two types of visualizations you created, ready for your README:
+
+---
+
+### 🎨 **Visualizations Created**
+
+#### 1️⃣ **Bar Chart Visualizations**
+
+* **What:** Plotted **horizontal bar charts** showing the **top distinctive words** for each sentiment class.
+* **Details:**
+
+  * Separate plots for **positive** and **negative** reviews.
+  * Words ranked by their **average TF-IDF scores**.
+* **Purpose:** Helps identify which words are **most strongly associated** with positive or negative sentiments in the dataset.
+
+---
+
+#### 2️⃣ **Word Frequency Analysis**
+
+* **What:** Computed the **average TF-IDF frequency** of each word across all reviews by sentiment.
+* **Details:**
+
+  * Extracted **top 50 distinctive words** for both positive and negative classes.
+  * Used these frequencies for visualization to highlight **important terms** in each category.
+* **Purpose:** Provides insight into **common and impactful vocabulary** used in reviews, supporting sentiment interpretation and feature importance understanding.
+
+---
+
+## 🔎 **Sample Insights**
 
 | Sentiment   | Top Words                       |
 | ----------- | ------------------------------- |
@@ -70,25 +108,27 @@ Develop a **Sentiment Analysis model** to classify **IMDb movie reviews** as **P
 
 ---
 
-## 💡 **Key Learnings**
-
-* Classical NLP preprocessing pipeline
-* TF-IDF feature engineering
-* Naive Bayes classification
-* Visualizing distinctive words by sentiment
+Here is your **equivalent “Model Comparison” section** rewritten for your README, using your own task context and emojis:
 
 ---
 
-## ✅ **Next Steps**
+## 📊 **Model Insights**
 
-* Hyperparameter tuning for improved accuracy
-* Trying different models (e.g. Logistic Regression, SVM)
-* Deploying as an API for real-time inference
+| **Model**                  | **Vectorizer** | **Accuracy**   |
+| -------------------------- | -------------- | -------------- |
+| 📈 **Logistic Regression** | TF-IDF         | \~87% ✅ |
+| 🤖 **Naive Bayes**         | Count Vectorizer         | \~87% ✅       |
+
+---
+
+## 💡 **Key Learnings**
+
+* Classical NLP preprocessing pipeline
+* TF-IDF and Count Vectorizer feature engineering
+* Logistic Regression and Naive Bayes classification
+* Visualizing distinctive words by sentiment
 
 ---
 
 > **Note:** This task focused on **classic NLP (no deep learning)** to strengthen fundamental understanding before moving to advanced transformer models.
 
----
-
-Let me know if you want a **version with emoji headers only** or a **fully minimal version** for your final internship submission today.
