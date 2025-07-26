@@ -3,7 +3,9 @@
 ### 🚀 **ELEVVO Internship Project**
 
 * 👤 **Author:** Ali Muhammed
-* 📝 **Task Level:** NLP Task 1
+* 🧠 **Task Level:** 1
+* 🚀 **Task Number:** 1
+
 
 ---
 
