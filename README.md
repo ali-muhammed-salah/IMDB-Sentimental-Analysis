@@ -75,9 +75,9 @@ Here is your **updated libraries list** with all the imported libraries from you
 * 🎯 Metrics: **Accuracy**, **Confusion Matrix** and **Classification Report**
 ---
 
-### 🎨 **Visualizations Created**
+## 🎨 **Visualizations**
 
-#### 1️⃣ **Bar Chart Visualizations**
+### 1️⃣ **Bar Chart Visualizations**
 
 * **What:** Plotted **horizontal bar charts** showing the **top distinctive words** for each sentiment class.
 * **Details:**
@@ -88,7 +88,7 @@ Here is your **updated libraries list** with all the imported libraries from you
 
 ---
 
-#### 2️⃣ **Word Frequency Analysis**
+### 2️⃣ **Word Frequency Analysis**
 
 * **What:** Computed the **average TF-IDF frequency** of each word across all reviews by sentiment.
 * **Details:**
